@@ -1,0 +1,19 @@
+{
+  "name": "@xotoboil-monorepo-lerna/client",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint 'src/**/*.{ts,vue}'"
+  },
+  "dependencies": {
+    "@xotoboil-monorepo-lerna/ui": "*",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "vite": "^2.0.0-0",
+    "vite-plugin-windicss": "^1.2.5"
+  }
+}

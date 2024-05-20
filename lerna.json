@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "registry": "https://registry.npmjs.org/",
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  },
+  "publishConfig": { "access": "public" },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
